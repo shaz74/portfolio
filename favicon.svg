@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="amberGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff9f43"/>
+      <stop offset="50%" stop-color="#ff793f"/>
+      <stop offset="100%" stop-color="#ee5253"/>
+    </linearGradient>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1f1813"/>
+      <stop offset="100%" stop-color="#0a0a0f"/>
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#bgGlow)"/>
+  <rect width="64" height="64" rx="16" fill="none" stroke="url(#amberGlow)" stroke-width="2" stroke-opacity="0.4"/>
+  <text x="32" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="900" fill="url(#amberGlow)" text-anchor="middle" letter-spacing="-1">SA</text>
+  <circle cx="49" cy="41" r="3.5" fill="#ff9f43"/>
+</svg>
